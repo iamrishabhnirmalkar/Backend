@@ -6,3 +6,9 @@
 2. Bundler
 3. axios
 4. proxy
+
+# Data modelling
+
+1.
+2.
+3.

@@ -1,3 +1,4 @@
 * text=auto
-Day01/node_modules/* text eol=lf
-Day02/node_modules/* text eol=lf
+Day01\node_modules
+Day02\bakend\node_modules
+

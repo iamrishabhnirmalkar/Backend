@@ -40,7 +40,7 @@ In our scenario, when the user's browser makes a request, Express listens for th
 
 The request type specified is a GET request, which typically retrieves data from the server without making any changes to the server's data.
 
-## Day 03
+## Day 02
 
 # Connect Forntend and Backend
 
@@ -95,3 +95,22 @@ With this configuration, requests made to /api in your frontend code will be for
 6. Connect Frontend and Backend:
 
 In your frontend code, make requests to the backend API endpoints using relative URLs (e.g., /api/jokes). The proxy configurations will ensure that these requests are forwarded to the backend server during development.
+
+## Day 03
+
+# DataModelling
+
+In data modelling for MongoDB, we use Mongoose as our database helper. Additionally, there are various tools and resources available to assist in the process of designing and visualizing data models.
+
+# Mongoose:
+
+Mongoose is an elegant MongoDB object modeling tool designed to work in an asynchronous environment. It provides a straightforward schema-based solution for modeling application data and includes built-in type casting, validation, query building, business logic hooks, and more.
+`npm i mongoose`
+
+Syntex:
+
+import mongoose from "mongoose";
+
+const Schema_name = new mongoose.Schema({});
+
+export const name_file = mongoose.model("name_file", Schema_name);
